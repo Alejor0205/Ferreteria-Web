@@ -1,11 +1,12 @@
 package com.bkseducate.securityapp.application.mapper;
 
-import com.bkseducate.securityapp.application.dto.RoleResponse;
-import com.bkseducate.securityapp.application.dto.UserResponse;
+import com.bkseducate.securityapp.application.dto.response.RoleResponse;
+import com.bkseducate.securityapp.application.dto.response.UserResponse;
 import com.bkseducate.securityapp.domain.model.Role;
 import com.bkseducate.securityapp.domain.model.User;
 import org.mapstruct.Mapper;
 import org.mapstruct.Mapping;
+
 
 
 /**

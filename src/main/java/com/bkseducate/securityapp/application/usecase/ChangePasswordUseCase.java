@@ -1,6 +1,6 @@
 package com.bkseducate.securityapp.application.usecase;
 
-import com.bkseducate.securityapp.application.dto.ChangePasswordRequest;
+import com.bkseducate.securityapp.application.dto.request.ChangePasswordRequest;
 import com.bkseducate.securityapp.domain.exceptions.InvalidCredentialsException;
 import com.bkseducate.securityapp.domain.exceptions.UserNotFoundException;
 import com.bkseducate.securityapp.domain.model.User;

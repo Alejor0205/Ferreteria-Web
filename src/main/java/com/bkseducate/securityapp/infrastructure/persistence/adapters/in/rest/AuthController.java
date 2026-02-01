@@ -1,6 +1,12 @@
 package com.bkseducate.securityapp.infrastructure.persistence.adapters.in.rest;
 
 import com.bkseducate.securityapp.application.dto.*;
+import com.bkseducate.securityapp.application.dto.request.ChangePasswordRequest;
+import com.bkseducate.securityapp.application.dto.request.LoginRequest;
+import com.bkseducate.securityapp.application.dto.request.RefreshTokenRequest;
+import com.bkseducate.securityapp.application.dto.request.RegisterRequest;
+import com.bkseducate.securityapp.application.dto.response.LoginResponse;
+import com.bkseducate.securityapp.application.dto.response.UserResponse;
 import com.bkseducate.securityapp.application.usecase.*;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.media.Content;

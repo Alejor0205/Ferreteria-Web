@@ -1,4 +1,4 @@
-package com.bkseducate.securityapp.application.dto;
+wpackage com.bkseducate.securityapp.application.dto.request;
 
 import io.swagger.v3.oas.annotations.media.Schema;
 import jakarta.validation.constraints.NotBlank;

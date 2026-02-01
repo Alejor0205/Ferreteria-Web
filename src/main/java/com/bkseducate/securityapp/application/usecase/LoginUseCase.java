@@ -1,7 +1,7 @@
 package com.bkseducate.securityapp.application.usecase;
 
-import com.bkseducate.securityapp.application.dto.LoginRequest;
-import com.bkseducate.securityapp.application.dto.LoginResponse;
+import com.bkseducate.securityapp.application.dto.request.LoginRequest;
+import com.bkseducate.securityapp.application.dto.response.LoginResponse;
 import com.bkseducate.securityapp.domain.exceptions.InvalidCredentialsException;
 import com.bkseducate.securityapp.domain.exceptions.UserNotFoundException;
 import com.bkseducate.securityapp.domain.model.RefreshToken;

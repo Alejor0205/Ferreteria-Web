@@ -1,6 +1,6 @@
 package com.bkseducate.securityapp.application.usecase;
 
-import com.bkseducate.securityapp.application.dto.UserResponse;
+import com.bkseducate.securityapp.application.dto.response.UserResponse;
 import com.bkseducate.securityapp.application.mapper.UserMapper;
 import com.bkseducate.securityapp.domain.exceptions.UserNotFoundException;
 import com.bkseducate.securityapp.domain.model.User;

@@ -8,7 +8,7 @@ import com.bkseducate.securityapp.infrastructure.persistence.entity.RoleEntity;
 import com.bkseducate.securityapp.infrastructure.persistence.entity.UserEntity;
 import com.bkseducate.securityapp.infrastructure.persistence.repository.UserJpaRepository;
 import org.springframework.stereotype.Component;
-
+import org.springframework.transaction.annotation.Transactional;
 import java.util.Optional;
 import java.util.Set;
 import java.util.UUID;

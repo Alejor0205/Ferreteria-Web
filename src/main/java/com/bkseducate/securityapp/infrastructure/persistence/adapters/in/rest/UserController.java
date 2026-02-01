@@ -1,7 +1,7 @@
 package com.bkseducate.securityapp.infrastructure.persistence.adapters.in.rest;
 
-import com.bkseducate.securityapp.application.dto.AssignRoleRequest;
-import com.bkseducate.securityapp.application.dto.UserResponse;
+import com.bkseducate.securityapp.application.dto.request.AssignRoleRequest;
+import com.bkseducate.securityapp.application.dto.response.UserResponse;
 import com.bkseducate.securityapp.application.usecase.AssignRoleUseCase;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.media.Content;
